@@ -1,2 +1,2 @@
 #!/bin/bash
-$((128 + $TRUEKNOWLEDGE)) | cat
+TRUEKNOWLEDGE="$((128 + $TRUEKNOWLEDGE))" | cat
